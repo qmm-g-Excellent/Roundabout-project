@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our work</title>
+    <link rel="stylesheet" href="./library/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./our-work.css">
+
+
+</head>
+<body>
+
+<div class="our-work-center-text">
+    <h1>众爱是希望的桥梁</h1>
+    <p>我们为全国各地需要帮助的孩子募集善款，并把他们推荐给能帮助他们的团体或者个人。</p>
+</div>
+
+
+<div class="video-section">
+    <video id="video" controls poster="./our-work-images/Home Page5.JPG">
+        <source src="http://ie.microsoft.com/testdrive/ieblog/2011/nov/pp4_blog_demo.mp4" type="video/mp4">
+    </video>
+    <div class="control">
+        <a href="#" id="btnPlay"><img src="./our-work-images/button_videoplay_default.png "></a>
+    </div>
+
+</div>
+
+<div class="what-do">
+    <h1>我们都做什么</h1>
+</div>
+
+
+<div class="our-jods-icons">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <a href="#" class="col-lg-4 ">
+            <img src="./our-work-images/a-work-icon.png" alt="白血病救助"><span class="jod-text">医疗救助</span>
+        </a>
+        <a href="#" class="col-lg-3">
+            <img src="./our-work-images/b-work-icon.png" alt="白血病救助"><span class="jod-text">白血病救助</span>
+        </a>
+        <a href="#" class="col-lg-3 col-lg-offset-1">
+            <img src="./our-work-images/c-work-icon.png" alt="白血病救助"><span class="jod-text">教育资助</span>
+        </a>
+        <div class="col-lg-1"></div>
+    </div>
+    <!--<div class="row"></div>-->
+    <div class="row our-jobs-icons-second">
+        <div class="col-md-3"></div>
+        <a href="#" class="col-md-3">
+            <img src="./our-work-images/d-work-icon.png" alt="白血病救助"><span class="jod-text" id="disater-rescue-text">灾区救助</span>
+        </a>
+
+        <a href="#" class="col-md-4 col-lg-offset-1">
+            <img src="./our-work-images/e-work-icon.png" alt="白血病救助"><span class="jod-text" id="community-rescue-text">社区帮扶</span>
+        </a>
+
+    </div>
+
+</div>
+
+
+<script>
+    var video = document.getElementById("video");
+    var ele = document.getElementById("btnPlay");
+    ele.onclick = function () {
+        if (video.paused) {
+            video.play();
+            ele.style.display = "none";
+        }
+        else {
+            video.pause();
+            ele.style.display = "block";
+
+        }
+        return false;
+    };
+</script>
+
+</body>
+</html>
