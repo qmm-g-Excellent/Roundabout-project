@@ -44,7 +44,6 @@ ul li {
 }
 
 .patient-profile pre {
-    /*letter-spacing: -1.5px;*/
     word-spacing: -7px;
     line-height: 30px;
 }
@@ -69,14 +68,12 @@ ul li {
     float: right;
     outline: none;
     border: 0;
-    /*list-style-type:none;*/
     background: none;
     margin: 40px 50px;
 
 }
 
 .save-life-situation {
-    /*position: relative;*/
     margin: 100px 0;
     height: 560px;
     width: 100%;
@@ -89,9 +86,6 @@ ul li {
     color: #ed6cab;
     font-size: 22px;
     padding: 3%;
-    /*text-align: center;*/
-    /*margin:100px;*/
-    /*border: 1px solid red;*/
 }
 
 .Rescue-situation-img {
@@ -100,16 +94,10 @@ ul li {
 }
 
 .Rescue-situation-img img {
-    /*text-align: center;*/
     margin: 40px;
-    /*border: 1px solid red;*/
 }
 
 .participate-rescue, .want-donate {
-    /*position: relative;*/
-    /*float:right;*/
-    /*top:85%;*/
-    /*left:33.6%;*/
     width: 226px;
     height: 52px;
     color: #ffffff;
@@ -144,7 +132,6 @@ ul li {
 
 .fact-situation img{
     position: relative;
-    /*margin-top:10%;*/
     top:40px;
 }
 

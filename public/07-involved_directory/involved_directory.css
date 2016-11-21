@@ -1,0 +1,145 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.breadcrumb {
+    height: 38px;
+    width: 100%;
+    background-size: cover;
+    background: #f0f0f0;
+    line-height: 38px;
+}
+
+.breadcrumb li, .breadcrumb i {
+    color: #585858;
+    display: inline;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.breadcrumb li:first-child {
+    text-decoration: underline;
+}
+
+.charity-theme {
+    text-align: center;
+}
+
+.charity-theme h1 {
+    font-weight: normal;
+    font-size: 45px;
+    color: #ec4c9a;
+}
+
+.charity-theme p {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #959595;
+}
+
+.search-section {
+    position: relative;
+}
+
+.search-section input {
+    position: relative;
+    top: 10px;
+    background: #d8d8d8;
+    height: 31px;
+    width: 346px;
+    outline: none;
+    border: 0;
+    border-radius: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+img.search-advance-icon {
+    position: relative;
+    left: -2%;
+    top: 13px;
+    color: #ffffff;
+}
+
+img.search-advance-button {
+    /*display:block;*/
+
+    position: relative;
+    left: -130px;
+    margin: 30px;
+    /*content: "\A";*/
+    /*white-space: pre;*/
+    /*float: left;*/
+    /*word-wrap : break-word;*/
+    /*text-align: center;*/
+}
+
+hr {
+    width: 958px;
+    height: 1px;
+    color: #DBDBDB;
+    background: #DBDBDB;
+    text-align: center;
+}
+
+.about-ags {
+    position: relative;
+    left:100px;
+    margin: 20px 0 100px 0;
+}
+
+.about-ags div {
+    width: 700px;
+    height: 56px;
+    overflow: visible;
+    word-wrap: break-word;
+    font-size: 22px;
+}
+
+.ags-icon  img{
+    position: relative;
+    float: left;
+    left:45px;
+    height: 107px;
+    width: 93px;
+    border:1px solid #e1e1e1;
+}
+
+.ags-description {
+    position: relative;
+    text-align: left;
+    left: 200px;
+    top: -90px;
+}
+
+.ags-description div{
+    position: relative;
+    top:-20px;
+}
+
+p.phone-number{
+    position: relative;
+    top:-40px;
+}
+
+.ags-description h4 {
+    position: relative;
+    left:-100px;
+    font-size: 22px;
+    color: #e55eac;
+}
+
+div.more-description{
+    position: relative;
+    top:-55px;
+}
+
+.more-description span{
+    margin-right:20px;
+    height:32px;
+    width:90px;
+    background: #d8d8d8;
+    border-radius: 30px;
+}
