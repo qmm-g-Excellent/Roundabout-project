@@ -1,0 +1,75 @@
+.share-resourse{
+    text-align: center;
+}
+
+.share-resourse h1{
+    font-size:48px;
+    color:#ec4c9a;
+}
+
+.share-resourse p{
+    color:#8b8b8b;
+    font-size: 22px;
+    width:850px;
+    margin:0 auto;
+    text-align: left;
+}
+
+.left-provide{
+    position: relative;
+    float:left;
+    text-align: left;
+}
+
+.right-question{
+    float: right ;
+}
+
+.share-entrance{
+    margin:0 15%;
+}
+
+.left-provide h4,.right-question h4{
+    font-size: 18px;
+    color:#ec4c9a;
+
+}
+
+.left-provide hr,.right-question hr{
+    position: relative;
+    width:200px;
+    left:-23%;
+
+    /*color:#8b8b8b;*/
+}
+
+.left-provide button, .right-question button{
+    background: #ffffff;
+    width:166px;
+    height:31px;
+    border:1px solid #ec4c9a;
+    border-radius: 100px;
+    /*display: block;*/
+    text-align: center;
+   font-size: 18px;
+    color:#646464;
+    line-height: 31px;
+    margin:10px 10px 10px 0;
+}
+
+button.about-skill{
+    height:31px;
+    width:192px;
+    /*display: block;*/
+
+}
+
+button.break-word{
+    /*word-wrap:break-word;*/
+    /*display: block;*/
+    word-break: break-all;
+}
+
+span.line{
+    white-space:nowrap;
+}
