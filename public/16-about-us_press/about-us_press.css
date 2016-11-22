@@ -1,0 +1,74 @@
+body {
+    overflow-x: hidden;
+}
+
+.media-round h1 {
+    font-size: 48px;
+    color: #EC4C9A;
+    margin: 20px;
+    text-align: center;
+
+}
+
+div.control-img-size {
+    position: relative;
+    width: 120px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid #e8e8e8;
+    left: 20px;
+}
+
+.media-round-icons {
+    margin: 30px;
+}
+
+.media-round-icons div > span {
+    font-size: 15px;
+    color: #EC4C9A;
+    display: block;
+    margin: 10px 0;
+}
+
+.write-information-area {
+    width: 100%;
+    height: 803px;
+    background: #f8f9fb;
+}
+
+h5 {
+    display: inline-block;
+    color: #EC4C9A;
+    font-size: 22px;
+}
+
+.write-information-area div {
+    position: relative;
+    font-size: 22px;
+    color: #7d7e7e;
+    margin-top: 15px;
+}
+
+.Required-title {
+    position: relative;
+    left: 40%;
+}
+
+.write-information-area input {
+    width: 337px;
+    border-radius: 100px;
+    border: 1px solid #CDCDCD;
+}
+
+.text-area {
+    height: 142px;
+    width: 603px;
+    border-radius: 20px;
+}
+
+.submit-cancel-btn button {
+    list-style-type: none;
+    background: none;
+    outline: none;
+    border: 0;
+}
